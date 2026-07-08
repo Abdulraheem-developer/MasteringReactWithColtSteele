@@ -1,0 +1,12 @@
+.student-card {
+    border: 1px solid orange;
+    border-radius: 10px;
+    box-shadow: #08060d 1px 1px 1px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    margin-left:400px;
+}
+.student-card li {
+    list-style: none;
+}
