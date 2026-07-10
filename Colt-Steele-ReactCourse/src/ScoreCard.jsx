@@ -26,6 +26,7 @@ const ScoreCard = ({name, score}) => {
     }
 
     const style = {
+
         color: color,
         border : '1px solid white',
         width : '50%',
@@ -40,7 +41,6 @@ const ScoreCard = ({name, score}) => {
             <p>Score: {score}</p>
             <p>Grade: {grade}</p>
             <p>{message}</p>
-
 
         </div>
     )
