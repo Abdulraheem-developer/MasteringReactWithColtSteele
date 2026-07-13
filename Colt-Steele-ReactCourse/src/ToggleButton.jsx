@@ -6,7 +6,7 @@ const ToggleButton = () => {
 
     return(
         <div>
-            <button onClick={() => setVisible(!visible)}>
+            <button onClick={() => setVisible(!visible)} >
                 {visible ? "Hide" : "Show"}
             </button>
             {visible && <p>Now you see me!</p>}
